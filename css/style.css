@@ -1,0 +1,511 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Open+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow-x: hidden;
+
+}
+
+
+/* ******  UTILITIES  ****** */
+.light-title {
+    font-family: 'Merriweather', serif;
+    font-size: 32px;
+    color: #f3f3f3;
+    line-height: 1.4;
+    letter-spacing: 0.8px;
+}
+
+.light-subtitle {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    line-height: 1.6;
+    color: #f3f3f3;
+}
+
+.dark-title {
+    font-family: 'Merriweather', serif;
+    font-size: 32px;
+    color: #f3f3f3;
+    line-height: 1.4;
+    letter-spacing: 0.8px;
+}
+
+.dark-subtitle {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    line-height: 1.6;
+    color: #f3f3f3;
+}
+
+
+/* ##########  NAVBAR  ########## */ 
+nav {
+    background: #c2b1a1;
+    opacity: 0.9;
+    z-index: 1;
+}
+
+.navbar-brand {
+    font-family: 'Merriweather', serif;
+    font-size: 24px;
+    margin-left: 1%;
+    color: #444;
+}
+
+.nav-link {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    color: #444;
+    margin-right: 15px;
+}
+
+.nav-btn {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    color: #444;
+}
+
+
+
+/* ##########  HERO SECTION  ########## */ 
+#hero-section {
+    height: 100vh;
+    background: url("../img/img-1.svg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+
+.hero-overlay {
+    position: absolute;
+    top: 12.66%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0, 0.3);
+}
+
+.hero-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-card {
+    padding: 25px;
+    background: #c2b1a1;
+    opacity: 0.9;
+}
+
+.check-mark-text {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.6;
+    color: #444;
+}
+
+.check-mark {
+    border-radius: 5px;
+    background: #f3f3f3;
+    color: #444;
+}
+
+.hero-title {
+    font-family: 'Merriweather', serif;
+    font-size: 112px;
+    text-indent: 5%;
+    color: #f3f3f3;
+}
+
+.hero-subtitle {
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 1.6;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #f3f3f3;
+}
+
+.hero-text {
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 1.6;
+    font-size: 26px;
+    font-weight: 400;
+    color: #f3f3f3;
+}
+
+
+
+/* ##########  INFO SECTION  ########## */ 
+#info-section {
+    background: #c2b1a1;
+}
+
+.dark-title {
+    font-family: 'Merriweather', serif;
+    font-size: 32px;
+    color: #444;
+    letter-spacing: 1px;
+}
+
+.info-text {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    line-height: 2.2;
+    letter-spacing: 1.2;
+}
+
+.info-hr {
+    width: 20%;
+}
+
+
+/* ##########  VIDEO SECTION  ########## */ 
+#video-section {
+    background: #444;
+}
+
+.video-row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.video-title {
+    font-family: 'Merriweather', serif;
+    font-size: 32px;
+    color: #f3f3f3;
+}
+
+.video-hr {
+    color: #f3f3f3;
+    width: 25%;
+}
+
+.video-text {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    color: #f3f3f3;
+    line-height: 2;
+    letter-spacing: 1.2;
+}
+
+.video-btn {
+    font-family: 'Open Sans', sans-serif;
+    color: #444;
+    font-size: 18px;
+    letter-spacing: 1.6;
+}
+
+/* ##########  HIGHLIGHTS SECTION  ########## */ 
+#highlights-section {
+    background: #444;
+}
+
+.highlights-icon {
+    color: #E4C061;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.highlight-title {
+    font-family: 'Merriweather', serif;
+    font-size: 22px;
+    color: #f3f3f3;
+    line-height: 1.4;
+    letter-spacing: 0.8px;
+}
+
+.highlight-text {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.3;
+    color: #f3f3f3;
+}
+
+
+
+/* ##########  STORE SECTION  ########## */ 
+.order-head {
+    height: 50vh;
+    background: url("/img/bg-2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.8;
+}
+
+#order-section {
+    background: #c2b1a1;
+}
+
+.order-hr {
+    width: 35%;
+}
+
+
+
+/* ##########  ACCORDION SECTION  ########## */ 
+#accordion-section {
+    background: #c2b1a1;
+}
+
+.section-title {
+    font-family: 'Merriweather', serif;
+    font-size: 32px;
+    color: #444;
+}
+
+.section-subtitle {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    width: 80%; 
+    line-height: 1.6;
+    color: #444;
+    color: #f3f3f3;
+}
+
+.section-line {
+    width: 75%; 
+}
+
+.accordion {
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 20px;
+    width: 80%;
+}
+
+.accordion-title {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    color: #444;
+    color: #f3f3f3;
+}
+
+.accordion-text {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #444;
+    color: #f3f3f3;
+}
+
+.accordion-item { 
+    background: #f3f3f3;
+    background: #444;
+}
+
+.accordion-button {
+    background: #f3f3f3;
+    background: #444;
+}
+
+.accordion-button::after {
+    background-image: none;
+    display: none;
+}
+
+/* ##########  CONTACT SECTION  ########## */  
+#contact-section {
+    background: #c2b1a1;
+    background: #444;
+}
+
+.contact-card {
+    opacity: 0.8;
+    background: #D2A828;
+    background: #DEB735;
+    background: #E4C061;
+}
+
+.contact-subtitle {
+    font-family: 'Merriweather', serif;
+    color: #444;
+}
+
+.contact-text {
+    font-family: 'Open Sans', sans-serif;
+    color: #444;
+}
+
+.contact-btn {
+    width: 100%; 
+    font-family: 'Open Sans', sans-serif;
+}
+
+.connect-subtitle {
+    font-family: 'Merriweather', serif;
+    color: #f3f3f3;
+    font-size: 32px;
+}
+
+.connect-text {
+    font-family: 'Open Sans', sans-serif;
+    color: #f3f3f3;
+    line-height: 1.6;
+    font-size: 18px;
+}
+
+.connect-hr {
+    color: #f3f3f3;
+    width: 50%;
+}
+
+
+/* ##########  FOOTER SECTION  ########## */ 
+footer {
+    height: 20vh;
+    background: #c2b1a1;
+    text-align: center;
+    font-size: 16px;
+    color: #444;
+    padding: 3%;
+}
+
+.footer-title {
+    font-family: 'Merriweather', serif;
+    letter-spacing: .8px;
+    font-weight: 600;
+}
+
+.footer-hr {
+    width: 25%;
+}
+
+
+
+
+
+
+
+/* ##########  OLD CODE BELOW  ########## */ 
+
+/* ------- HIGHLIGHTS SECTION ------ 
+
+#highlights-section {
+    background: #c2b1a1;
+    padding: 5%; 
+}
+
+.highlights-title {
+    font-family: 'Merriweather', serif;
+    font-size: 32px;
+}
+
+.highlights-subtitle {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+}
+
+.highlights-hr {
+    width: 25%;
+    color: #444;
+}
+
+
+
+*/
+
+/* ------ INFO HIGHLIGHTS SECTION #2 ------
+#info-highlights-section {
+    background: #c2b1a1;
+    
+}
+
+.info-highlights-hr {
+    width: 25%;
+}
+
+.info-highlights-title {
+    font-family: 'Merriweather', serif;
+    font-size: 32px;
+    color: #444;
+   
+}
+
+.info-highlights-subtitle {
+    font-family: 'Merriweather', serif;
+    font-size: 24px;
+    color: #444;
+}
+
+.info-highlights-text {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    margin-left: 85px;
+}
+
+.info-text {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+}
+
+.info-highlights-img {
+    height: 12%;
+    width: 12%;
+    margin-right: 20px;
+}
+
+*/
+
+
+/* ------- MAIN SECTION #2 ------ */
+/* .card-section {
+    padding: 2% 5% 5% 5%;
+}
+.card {
+    margin-right: 15px;
+} */
+
+/* 
+   logo img page divider 
+
+#logo-container {
+    height: 30vh;
+    background: #444;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    height: 35%;
+    width: 20%;
+    margin-right: 50px;
+    margin-left: 50px;
+} */
+
+/* ########## ECWID CUSTOM CSS THEME - SAVE! ########## */
+
+/* Card Styles */ 
+
+/* Card "Buy Now" btn */ 
+html#ecwid_html body#ecwid_body .ec-size .ec-store .form-control--secondary .form-control__button:hover { 
+    background: red; 
+}
+
+/* Card "Buy Now" btn:hover */ 
+html#ecwid_html body#ecwid_body .ec-size .ec-store .grid-product__buy-now .form-control__button {
+    background: green;
+}
+
+/* Card bottom wrapper */ 
+html#ecwid_html body#ecwid_body .ec-size .ec-store .grid__products--appearance-frame .grid-product__wrap-inner {
+    background: #f3f3f3;
+}
