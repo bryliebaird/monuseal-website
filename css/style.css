@@ -8,8 +8,15 @@
 }
 
 body {
-    overflow-x: hidden;
-
+    overflow-x: hidden;.features-title
+        font-family: 'Merriweather', serif;
+        font-size: 22px;
+        font-weight: 400;
+        letter-spacing: 0.8px;
+        line-height: 1.4;
+        color: #fff;
+        margin: 0 0 6px 0;
+      
 }
 
 
@@ -228,6 +235,7 @@ nav {
     color: #f3f3f3;
     line-height: 1.4;
     letter-spacing: 0.8px;
+    font-weight: 500;
 }
 
 .highlight-text {
@@ -530,4 +538,19 @@ html#ecwid_html body#ecwid_body .ec-size .ec-store .grid-product__buy-now .form-
 /* Card bottom wrapper */ 
 html#ecwid_html body#ecwid_body .ec-size .ec-store .grid__products--appearance-frame .grid-product__wrap-inner {
     background: #f3f3f3;
+}
+
+
+
+
+#buy-btn {
+    margin: 0px;
+}
+
+html#ecwid_html body#ecwid_body .ecsp .ecwid-btn--primary, html#ecwid_html body#ecwid_body .ecwid .ecwid-btn--primary {
+    background: green;
+}
+
+.myBtnStyle {
+    background: yellow;
 }

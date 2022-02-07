@@ -1,5 +1,12 @@
 const orderBtn = document.querySelector(".order-btn");
 const year = document.querySelector("#year");
+const buyBtn = document.querySelector(".ecwid-btn");
+
+const styleBtn = function(){
+  buyBtn.classList.add("myBtnStyle");
+}
+
+styleBtn();
 
 
 const getYear = function (){
@@ -9,8 +16,6 @@ const getYear = function (){
 }
 
 window.onload = getYear();
-
-
 
 
 orderBtn.addEventListener("click", function(){
